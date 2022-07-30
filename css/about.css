@@ -1,0 +1,33 @@
+.slider {
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+  }
+  
+  .slider button {
+    background-color: #333;
+    color: #aaa;
+    font-size: 30px;
+    border: none;
+    transition: all .5s;
+  }
+  .slider button:hover {
+    background-color: #777;
+    color: #eee;
+    cursor: pointer;
+  }
+  
+  .slide h2 { margin-bottom: 0; }
+  .slide h4 { margin-top: 4px; }
+  
+  .slide:nth-child(1) {
+    background: #eee url(../image/banner1.jpg) no-repeat top left;
+  }
+  .slide:nth-child(2) {
+    background: #eee url("../image/banner2.jpeg") no-repeat top left;
+  }
+  .slide:nth-child(3) {
+    background: #eee url("/image/banner3.jpeg") no-repeat top left;
+  }
+  .slide:nth-child(4) {
+    background: #eee url("/image/banner4.jpeg") no-repeat top left;
+  }
